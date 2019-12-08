@@ -1,0 +1,56 @@
+{
+    "token": "NjUyODg4Njk3NTUyNzY0OTI4.XevACg.nZFDkGit7n1ry5R6jz1o3IpBZKw",
+    "database": {
+        "host": "ip here",
+        "port": 3306, 
+        "user": "user here",
+        "password": "pass here",
+        "database": "db name here"
+    },
+    "paths": {
+        "commands": "./commands",
+        "events": "./events"
+    },
+    "prefix": "-",
+    "generators": [
+        "Minecraft NFA",
+        "Minecraft SFA",
+        "Hulu",
+        "NordVPN",
+        "Origin",
+        "Spotify",
+        "Crunchyroll",
+        "Grammarly",
+        "Minecraft OF",
+        "Minecraft Ranked NFA",
+        "Fortnite"
+    ],
+    "roles": [
+        {
+            "name": "default",
+            "generators": [
+                "Minecraft NFA",
+                "Hulu",
+                "NordVPN",
+                "Origin"
+            ],
+            "cooldown": 86400000
+        },
+        {
+            "name": "Diamond",
+            "generators": [
+                "Grammarly"
+            ],
+            "color": "#1b8cdf",
+            "cooldown": 21600000
+        },
+        {
+            "name": "Emerald",
+            "generators": [
+                "Fortnite"
+            ],
+            "color": "#278d46",
+            "cooldown": 3600000
+        }
+    ]
+}
